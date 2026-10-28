@@ -1,0 +1,20 @@
+{
+  "name": "God of War Ragnarök 100% Checklist",
+  "short_name": "GoW Checklist",
+  "description": "Offline-capable 100% completion tracker for God of War Ragnarök across all 10 Realms and 23 Categories.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1017",
+  "theme_color": "#111924",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#1c2838"/>
+      <stop offset="100%" stop-color="#0b1017"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d38c"/>
+      <stop offset="50%" stop-color="#d4a24c"/>
+      <stop offset="100%" stop-color="#9b6c21"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7ce0ff"/>
+      <stop offset="100%" stop-color="#2b86c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="214" fill="none" stroke="url(#gold)" stroke-width="10" stroke-dasharray="18 10" opacity="0.65"/>
+  <circle cx="256" cy="256" r="192" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.35"/>
+  <!-- Stylized Omega / Norse Serpent Ring -->
+  <path d="M136 368 H212 V328 C168 302 146 254 156 198 C166 138 206 104 256 104 C306 104 346 138 356 198 C366 254 344 302 300 328 V368 H376"
+        fill="none" stroke="url(#gold)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Checkmark / Rune inside Omega -->
+  <path d="M206 238 L242 274 L312 194"
+        fill="none" stroke="url(#ice)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
